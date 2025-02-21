@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.head {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+#img {
+    margin-top: 1rem;
+}
+.login {
+    background-color: #FFFFFF;
+    color: #FA7436;
+
+}
+.signup {
+    background-color: #FA7436;
+    color: #FFFFFF;
+}
+#trabook {
+    text-decoration: none;
+    color: black;
+}
+.links {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+}
+.login {
+
+}
+.signup {
+    height: 25px;
+    width: 60px;
+}
+
