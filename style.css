@@ -1,24 +1,36 @@
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    
+}
+.links {
+    gap: ;
 }
 .head {
     display: flex;
     align-items: center;
     gap: 7px;
 }
-#img {
-    margin-top: 1rem;
-}
 .login {
     background-color: #FFFFFF;
     color: #FA7436;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    height: 37px;
+    width: 7rem;
+    font-weight: bolder;
 
 }
 .signup {
     background-color: #FA7436;
     color: #FFFFFF;
+    border: 1px solid #FA7436;
+    border-radius: 4px;
+    height: 37px;
+    width: 7rem;
+    font-weight: bolder;
+
 }
 #trabook {
     text-decoration: none;
@@ -28,13 +40,34 @@ header {
     display: flex;
     text-decoration: none;
     color: black;
-    gap: 10px;
+    gap: 20px;
 }
-.login {
+#img {
+    height: 13px;
+}
+#Volkhov {
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: bold;
 
 }
-.signup {
-    height: 25px;
-    width: 60px;
+#poppins {
+    color: #666666;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    line-height: 1.8;
+}
+.center {
+    display: flex;
+}
+body {
+    width: 70vw;
+    margin: auto;
+    position: relative;
+}
+.center img {
+    width: 60%;
+    left: 8rem;
+    position: relative;
 }
 
