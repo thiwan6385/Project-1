@@ -2,10 +2,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: #FEFCFB;
 }
-.links {
-    gap: ;
+#trabook {
+    font-weight: bold;
+    font-family: volkhov, 'sans-serif';
 }
 .head {
     display: flex;
@@ -19,6 +20,7 @@ header {
     border-radius: 4px;
     height: 37px;
     width: 7rem;
+    font-family: poppins, 'sans-serif';
     font-weight: bolder;
 
 }
@@ -27,6 +29,7 @@ header {
     color: #FFFFFF;
     border: 1px solid #FA7436;
     border-radius: 4px;
+    font-family: poppins, 'sans-serif';
     height: 37px;
     width: 7rem;
     font-weight: bolder;
@@ -38,6 +41,7 @@ header {
 }
 .links {
     display: flex;
+    font-family: poppins, sans-serif;
     text-decoration: none;
     color: black;
     gap: 20px;
@@ -46,16 +50,17 @@ header {
     height: 13px;
 }
 #Volkhov {
-    font-family: 'Volkhov', serif;
-    font-size: 50px;
+    font-family: Volkhov,'sans-serif';  ;
+    font-size: 49px;
     font-weight: bold;
 
 }
 #poppins {
     color: #666666;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
+    font-family: Poppins, 'sans-serif';
+    font-size: 16px;
     line-height: 1.8;
+    margin-bottom: 2.5rem;
 }
 .center {
     display: flex;
@@ -67,7 +72,70 @@ body {
 }
 .center img {
     width: 60%;
+    height: 100%;
     left: 8rem;
     position: relative;
 }
+.hero {
+    background-color: #FFFFFF;
+}
+#discover {
+    height: 2.5rem;
+    width: 9vw;
+    color: #FA7436;
+    background-color: #FFFFFF;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid #FA7436;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.divfooter {
+    display: flex;
+    padding: 10px;
+    max-width: 50vw;
+    margin-top: 2rem;
+    margin-left: 110px;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    background-color: #FEFCFB;
+    align-items: center;
+    justify-content: space-between;
+}
+.pop {
+    font-family: poppins, 'sans-serif';
+}
+#btnexplore {
+    background-color: #FA7436;
+    color: #FFFFFF;
+    padding: 0.9rem;
+    width: 8rem;
+    border-radius: 5px;
+    border: 1px solid #FA7436;
+}
+#home {
+    background-color: #F7F8FC;
+}
+#home > header {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: volkhov, 'sans-serif';
+    justify-content: center;
+    
+
+}
+#home > p {
+    font: 5rem;
+    font-family: poppins, 'sans-serif';
+    line-height: 32px;
+    color: #666666;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+
+
+}
+
 
